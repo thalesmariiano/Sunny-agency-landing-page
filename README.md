@@ -1,6 +1,6 @@
 # Sunny-agengy-landing-page
 
-## A landing page made for a Front-End Mentor challenge.
+## A landing page made for a challenge from Front-End Mentor.
 
 This landing page is not finalized
 
