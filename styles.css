@@ -1,0 +1,286 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700;9..144,900&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Barlow', sans-serif;
+}
+
+header {
+	background: url(./images/desktop/image-header.jpg) no-repeat;
+	background-size: contain;
+	background-position: center;
+	background-color: #3dbffe;
+	height: 97vh;
+	text-align: center;
+}
+
+#nav-container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 30px 25px;
+}
+
+#logo {
+	width: 150px;
+	height: auto;
+}
+
+nav ul {
+	display: flex;
+	list-style-type: none;
+}
+
+nav ul li {
+	padding: 0px 15px;
+}
+
+.nav-link {
+	text-decoration: none;
+	color: white;
+}
+
+#contact-link {
+	background-color: white;
+	color: hsl(212, 27%, 19%);
+	font: 15px 'Fraunces', serif;
+	padding: 15px 25px;
+	border-radius: 25px;
+}
+
+#header-title {
+	color: white;
+	font: 900 3rem 'Fraunces', serif;
+	margin-top: 60px;
+	letter-spacing: 5px;
+}
+
+#header-arrow {
+	width: 30px;
+	height: auto;
+	margin-top: 75px;
+}
+
+/* services */
+
+#services-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.services-row {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+.services-item {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-width: 50%;
+	height: 520px;
+	position: relative;
+}
+
+.services-item-image {
+	width: 100%;
+	height: 100%;
+}
+
+.services-title {
+	font: 900 2rem 'Fraunces', serif;
+	color: hsl(212, 27%, 19%);
+	max-width: 350px;
+	min-width: 316px;
+}
+
+.services-text {
+	text-align: left;
+	color: hsl(232, 10%, 55%);
+	max-width: 400px;
+	line-height: 24px;
+	margin: 25px 0px;
+}
+
+.services-link {
+	font: 900 15px 'Fraunces', serif;
+	color: hsl(212, 27%, 19%);
+	text-decoration: none;
+	text-transform: uppercase;
+	position: relative;
+}
+
+.services-link::before {
+	content: ' ';
+	position: absolute;
+	left: -5px;
+	bottom: -1px;
+	background-color: rgba(250, 212, 0, .3);
+	width: 110%;
+	height: 7px;
+	border-radius: 15px;
+}
+
+.services-link-yellow::before {
+	background-color: rgba(254, 120, 103, .3);
+}
+
+.services-item-content-2 {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	align-items: center;
+	text-align: center;
+	padding: 30px;
+}
+
+.services-item-content-2 > .services-text {
+	max-width: 350px;
+	text-align: center;
+}
+
+.graphic-design {
+	color: hsl(167, 40%, 24%);
+}
+
+.text1 {
+	color: hsl(167, 40%, 24%);
+}
+
+.photography {
+	color: hsl(198, 62%, 26%);
+}
+
+.text2 {
+	color: hsl(198, 62%, 26%);
+}
+
+/* testimonials */
+
+#testimonials {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	min-height: 95vh;
+}
+
+#testimonials-title {
+	font: 1.3rem 'Fraunces', serif;
+	text-align: center;
+	color: hsl(210, 4%, 67%);
+	padding: 5rem 0px;
+	letter-spacing: 3px;
+}
+
+#testimonials-container {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+}
+
+.testimonials-item {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	height: 280px;
+	margin: 20px;
+}
+
+.person-image {
+	width: 60px;
+	height: auto;
+	border-radius: 50%;
+}
+
+.person-text {
+	max-width: 310px;
+	text-align: center;
+	line-height: 25px;
+	color: hsl(213, 9%, 39%);
+}
+
+.person-info {
+	text-align: center;
+}
+
+.person-name {
+	font: bolder 1rem 'Fraunces', serif;
+	color: hsl(212, 27%, 19%)
+}
+
+.person-job {
+	font-size: 11px;
+	color: hsl(210, 4%, 67%);
+	margin-top: 12px;
+}
+
+/* photos gallery */
+
+#photos {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	margin-top: 20px;
+}
+
+.photos-item img {
+	width: 337px;
+	height: auto;
+	display: block;
+}
+
+/* footer */
+
+footer {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #90d4c5;
+	height: 300px;
+	padding: 4rem;
+}
+
+#footer-logo {
+	width: 160px;
+	height: auto;
+}
+
+#footer-nav-links {
+	margin-top: 2rem;
+}
+
+#footer-nav-links li {
+	padding: 0px 20px;
+}
+
+.footer-links {
+	text-decoration: none;
+	color: hsl(168, 34%, 41%);
+}
+
+#footer-nav-contact {
+	margin-top: 5rem;
+}
+
+.footer-contact img {
+	width: 20px;
+	height: auto;
+}
