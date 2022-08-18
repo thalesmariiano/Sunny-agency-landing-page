@@ -6,10 +6,10 @@ This landing page is not finalized
 
 Responsive mobile in progress
 
-#Preview site:
+## Preview site:
 https://agency-landingpage-thalesmariiano.netlify.app/
 
 ## Made with: 
 - HTML5
 - CSS3
-
+- Javascript
