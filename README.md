@@ -1,10 +1,6 @@
 # Sunny-agency-landing-page
 
-## A landing page made for a challenge from Front-End Mentor.
-
-This landing page is not finalized
-
-Responsive mobile in progress
+## A landing page 100% responsive made for a challenge from Front-End Mentor.
 
 ## Preview site:
 https://agency-landingpage-thalesmariiano.netlify.app/
